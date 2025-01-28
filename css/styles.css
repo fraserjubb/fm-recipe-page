@@ -118,6 +118,11 @@ MAIN:
   margin: var(--sp-128px);
 }
 
+/*
+****** 
+CARD
+****** 
+*/
 .card {
   background-color: var(--white);
   max-width: 46rem;
@@ -125,6 +130,63 @@ MAIN:
   border-radius: var(--sp-24px);
 }
 
+.card__line-decor {
+  height: 1px;
+  background-color: var(--stone-150);
+}
+
+/*
+****** 
+MULTIPLE TITLES
+****** 
+*/
+.card__title,
+.card__section-title {
+  font-family: var(--ff-heading);
+  line-height: var(--lh-heading);
+}
+
+.card__section-title {
+  font-size: var(--fs-h2);
+  margin-bottom: var(--sp-24px);
+}
+
+/*
+****** 
+ALL LISTS
+****** 
+*/
+.card__list {
+  padding-inline-start: var(--sp-24px);
+}
+
+.card__list-item,
+.card__list-item-prep {
+  padding-left: var(--sp-20px);
+  margin-bottom: var(--sp-8px);
+  color: var(--stone-600);
+}
+
+.card__list-item:last-child,
+.card__list-item-prep:last-child {
+  margin-bottom: 0;
+}
+
+.card__list-item::marker {
+  font-weight: var(--fw-bold);
+  color: var(--brown-800);
+}
+
+/* List in prep section only */
+.card__list-item-prep::marker {
+  color: var(--rose-800);
+}
+
+/*
+****** 
+CARD HEADER
+****** 
+*/
 .card__header {
 }
 
@@ -135,20 +197,22 @@ MAIN:
   border-radius: var(--sp-12px);
 }
 
-.card__title,
-.card__section-title {
-  font-family: var(--ff-heading);
-  line-height: var(--lh-heading);
-}
-
 .card__title {
   font-size: var(--fs-h1);
   color: var(--stone-900);
   margin-bottom: var(--sp-24px);
 }
+
+/* Description in header plus in Nutrition Section */
 .card__description {
   color: var(--stone-600);
 }
+
+/*
+****** 
+SECTION: PREPARATION TIME
+****** 
+*/
 .card__prep-section,
 .card__section {
   margin: var(--sp-32px) 0;
@@ -166,41 +230,11 @@ MAIN:
   font-size: var(--fs-h3);
 }
 
-.card__list {
-  padding-inline-start: var(--sp-24px);
-}
-
-.card__list-item,
-.card__list-item-prep {
-  padding-left: var(--sp-20px);
-  margin-bottom: var(--sp-8px);
-  color: var(--stone-600);
-}
-
-.card__list-item-prep::marker {
-  color: var(--rose-800);
-}
-
-.card__list-item::marker {
-  font-weight: var(--fw-bold);
-  color: var(--brown-800);
-}
-
-.card__list-item:last-child,
-.card__list-item-prep:last-child {
-  margin-bottom: 0;
-}
-
-.card__line-decor {
-  height: 1px;
-  background-color: var(--stone-150);
-}
-
-.card__section-title {
-  font-size: var(--fs-h2);
-  margin-bottom: var(--sp-24px);
-}
-
+/*
+****** 
+SECTION: NUTRITION
+****** 
+*/
 .card__table {
   margin-top: var(--sp-24px);
   width: 100%;
@@ -232,6 +266,7 @@ MAIN:
   text-indent: var(--sp-8px);
   font-weight: var(--fw-bold);
 }
+
 /* 
 ********************************
 FOOTER:
@@ -240,28 +275,23 @@ FOOTER:
 .attribution {
   text-align: center;
   font-size: var(--fs-small);
-  /* color: var(--gray-950); */
   margin-bottom: var(--sp-24px);
 }
 
 /* LINKS */
-/* Default State */
-.attribution a:link {
-  /* color: var(--gray-500); */
-  text-decoration: none;
-}
-
-/* Visited State */
+/* Default State | Visited State */
+.attribution a:link,
 .attribution a:visited {
-  /* color: var(--gray-500); */
+  color: #be123c;
+  text-decoration: none;
 }
 
 /* State On Hover */
 .attribution a:hover {
-  /* color: var(--gray-700); */
+  color: #e11d48;
 }
 
 /* State Whilst Being Clicked */
 .attribution a:active {
-  /* color: var(--gray-700); */
+  color: #f43f5e;
 }
