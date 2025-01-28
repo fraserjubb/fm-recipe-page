@@ -126,6 +126,7 @@ CARD
 .card {
   background-color: var(--white);
   max-width: 46rem;
+  min-width: 38.5rem;
   padding: var(--sp-40px);
   border-radius: var(--sp-24px);
 }
@@ -157,7 +158,7 @@ ALL LISTS
 ****** 
 */
 .card__list {
-  padding-inline-start: var(--sp-24px);
+  padding-inline-start: var(--sp-20px);
 }
 
 .card__list-item,
