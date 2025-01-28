@@ -170,24 +170,24 @@ MAIN:
   padding-inline-start: var(--sp-24px);
 }
 
-.card__item,
-.card__item-prep {
+.card__list-item,
+.card__list-item-prep {
   padding-left: var(--sp-20px);
   margin-bottom: var(--sp-8px);
   color: var(--stone-600);
 }
 
-.card__item-prep::marker {
+.card__list-item-prep::marker {
   color: var(--rose-800);
 }
 
-.card__item::marker {
+.card__list-item::marker {
   font-weight: var(--fw-bold);
   color: var(--brown-800);
 }
 
-.card__item:last-child,
-.card__item-prep:last-child {
+.card__list-item:last-child,
+.card__list-item-prep:last-child {
   margin-bottom: 0;
 }
 
