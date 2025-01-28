@@ -6,7 +6,7 @@
     {
       "files": "index.html",
       "options": {
-        "printWidth": 140
+        "printWidth": 250
       }
     }
   ]
