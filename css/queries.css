@@ -47,7 +47,7 @@ MOBILE: 500px
   }
 
   .card__prep-section {
-    margin: 32px 32px;
+    margin: var(--sp-32px) var(--sp-32px);
     padding: var(--sp-24px);
   }
 
