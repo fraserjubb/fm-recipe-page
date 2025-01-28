@@ -39,6 +39,7 @@
   --sp-40px: 2.5rem;
   --sp-32px: 2rem;
   --sp-24px: 1.5rem;
+  --sp-20px: 1.25rem;
   --sp-16px: 1rem;
   --sp-12px: 0.75rem;
   --sp-10px: 0.625rem;
@@ -114,7 +115,7 @@ MAIN:
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 128px;
+  margin: var(--sp-128px);
 }
 
 .card {
@@ -166,12 +167,12 @@ MAIN:
 }
 
 .card__list {
-  padding-inline-start: 24px;
+  padding-inline-start: var(--sp-24px);
 }
 
 .card__item,
 .card__item-prep {
-  padding-left: 20px;
+  padding-left: var(--sp-20px);
   margin-bottom: var(--sp-8px);
   color: var(--stone-600);
 }
@@ -191,7 +192,6 @@ MAIN:
 }
 
 .card__line-decor {
-  max-width: 536px;
   height: 1px;
   background-color: var(--stone-150);
 }
@@ -222,7 +222,7 @@ MAIN:
 }
 
 .card__table-key {
-  width: 328px;
+  width: 20.5rem; /* 328px */
 
   text-align: left;
   padding-left: var(--sp-32px);
