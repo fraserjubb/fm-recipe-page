@@ -127,8 +127,18 @@ CARD
   background-color: var(--white);
   max-width: 46rem;
   min-width: 38.5rem;
-  padding: var(--sp-40px);
   border-radius: var(--sp-24px);
+}
+
+.card__image {
+  max-width: 100%;
+  margin-bottom: var(--sp-40px);
+  border-radius: var(--sp-12px);
+  padding: var(--sp-40px) var(--sp-40px) 0 var(--sp-40px);
+}
+
+.card__body {
+  padding: 0 var(--sp-40px) var(--sp-40px) var(--sp-40px);
 }
 
 .card__line-decor {
@@ -185,26 +195,16 @@ ALL LISTS
 
 /*
 ****** 
-CARD HEADER
+CARD TITLE
 ****** 
 */
-.card__header {
-}
-
-.card__image {
-  max-width: 100%;
-  height: 18.75rem;
-  margin-bottom: var(--sp-40px);
-  border-radius: var(--sp-12px);
-}
-
 .card__title {
   font-size: var(--fs-h1);
   color: var(--stone-900);
   margin-bottom: var(--sp-24px);
 }
 
-/* Description in header plus in Nutrition Section */
+/* Main Description plus in Nutrition Section */
 .card__description {
   color: var(--stone-600);
 }
