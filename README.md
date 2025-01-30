@@ -9,6 +9,7 @@ This is a solution to the [Recipe Page challenge on Frontend Mentor](https://www
   - [Project Links](#project-links)
 - [My Process](#my-process)
   - [Built With](#built-with)
+  - [A Personal Note](#a-personal-note)
   - [What I Learned](#what-i-learned)
   - [Continued Development](#continued-development)
   - [Useful Resources](#useful-resources)
@@ -24,7 +25,7 @@ This is a solution to the [Recipe Page challenge on Frontend Mentor](https://www
 ### Project Links
 
 - Solution URL: [Click Here](#)
-- Live Site URL: [Click Here](#)
+- Live Site URL: [Click Here](https://fm-recipepage-fraser.netlify.app/)
 - Frontend Mentor Profile: [@fraserjubb](https://www.frontendmentor.io/profile/fraserjubb)
 
 ## My Process
@@ -35,26 +36,33 @@ This is a solution to the [Recipe Page challenge on Frontend Mentor](https://www
 - CSS
 - Desktop-first workflow
 
+### A Personal Note
+
+I started this at the start of October, but then my back seized up. This meant I had to suddenly stop learning to code and focus on recovery. After multiple intense sessions every single week with my Personal Trainer and Osteopath, I have managed to stabilize my back enough so that I can finally continue my journey learning to code.
+
 ### What I Learned
 
 In this particular project:
 
-1.
+1. As I had a few months between starting and finishing this project, I realized how important it is to try and keep code maintained and readable so that it is easy to continue or update projects in the future, even on a project this small.
+
+2. I learned about `padding-inline-start` and the benefits it has for being able to switch between ltr and rtl without any changes needing to be made to the code.
 
 ```css
-<Code proud of>
+.card__list {
+  padding-inline-start: var(--sp-20px);
+}
 ```
 
 ### Continued Development
 
 After submitting this project, I wish to develop the following:
 
-1. <text>
+1. I want to keep my code more organized earlier on in projects as opposed to cleaning up absolutely everything at the end. This means making better use of notes in my code earlier on in projects.
 
 ### Useful Resources
 
-- Nothing of note used for this project.
-- [<Text to appear> (<Media Type>)](#) - <description of how it helped>
+- [Padding-Inline-Start(MDN Documentation)](https://developer.mozilla.org/en-US/docs/Web/CSS/padding-inline-start) - Demo has `writing-mode` which is useful to see how it works.
 
 ## Noteworthy Updates Since Initial Submission
 
@@ -70,4 +78,3 @@ After submitting this project, I wish to develop the following:
 <a href="mailto:fraserjubb.dev@gmail.com"><img height="30px" align="left" alt="Gmail" style="padding-right:10px" title="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=plastic&logo=gmail&logoColor=white"/></a>
 
 <br/>
-# fm-recipe-page
