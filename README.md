@@ -24,7 +24,7 @@ This is a solution to the [Recipe Page challenge on Frontend Mentor](https://www
 
 ### Project Links
 
-- Solution URL: [Click Here](#)
+- Solution URL: [Click Here](https://www.frontendmentor.io/solutions/recipe-page-solution---challenge-4-TpNxnyYr-6)
 - Live Site URL: [Click Here](https://fm-recipepage-fraser.netlify.app/)
 - Frontend Mentor Profile: [@fraserjubb](https://www.frontendmentor.io/profile/fraserjubb)
 
