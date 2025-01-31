@@ -40,6 +40,10 @@ MOBILE: 500px
   }
 
   .card__body {
-    padding: 0 var(--sp-32px) var(--sp-32px) var(--sp-40px);
+    padding: 0 var(--sp-32px) var(--sp-40px) var(--sp-32px);
+  }
+
+  .card__section:last-child {
+    margin-bottom: 0;
   }
 }
