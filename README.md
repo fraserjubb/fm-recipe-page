@@ -38,15 +38,13 @@ This is a solution to the [Recipe Page challenge on Frontend Mentor](https://www
 
 ### A Personal Note
 
-I started this at the start of October, but then my back seized up. This meant I had to suddenly stop learning to code and focus on recovery. After multiple intense sessions every single week with my Personal Trainer and Osteopath, I have managed to stabilize my back enough so that I can finally continue my journey learning to code.
+I started this challenge at the start of October, but then my back seized up. This meant I had to suddenly stop everything coding related and focus on recovery. After multiple intense sessions every single week with my Personal Trainer and Osteopath, I have managed to stabilize my back enough so that I can finally continue my journey learning to code. I immediately continued where I left off with this challenge.
 
 ### What I Learned
 
 In this particular project:
 
-1. As I had a few months between starting and finishing this project, I realized how important it is to try and keep code maintained and readable so that it is easy to continue or update projects in the future, even on a project this small.
-
-2. I learned about `padding-inline-start` and the benefits it has for being able to switch between ltr and rtl without any changes needing to be made to the code.
+1. I learned about `padding-inline-start` and the benefits it has for being able to switch between left-to-right and right-to-left script direction without any changes needing to be made to the code.
 
 ```css
 .card__list {
@@ -54,11 +52,29 @@ In this particular project:
 }
 ```
 
+2. In my previous projects, the _prettier_ extension in vscode has always been changing my html code to sometimes separate one element into multiple lines instead of just one. Adding the following `printWidth` override seems to have fixed this:
+
+```css
+ {
+  "singleQuote": false,
+  "arrowParens": "avoid",
+
+  "overrides": [
+    {
+      "files": "index.html",
+      "options": {
+        "printWidth": 250
+      }
+    }
+  ]
+}
+```
+
 ### Continued Development
 
 After submitting this project, I wish to develop the following:
 
-1. I want to keep my code more organized earlier on in projects as opposed to cleaning up absolutely everything at the end. This means making better use of notes in my code earlier on in projects.
+1. Going forward, I would like to keep my CSS code a little more tidy earlier within the development of the project instead of a massive clean up at the end. Just a simple case of staying more organized. Perhaps I will try adding checkpoints to do this.
 
 ### Useful Resources
 
