@@ -155,6 +155,7 @@ MULTIPLE TITLES
 .card__section-title {
   font-family: var(--ff-heading);
   line-height: var(--lh-heading);
+  font-weight: var(--fw-base);
 }
 
 .card__section-title {
